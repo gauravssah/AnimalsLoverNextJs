@@ -51,7 +51,7 @@ export default function signin() {
 
                     {/* Welcome Back */}
                     <div className='flex justify-center items-center flex-col gap-4  w-4/5 m-auto mt-8 mb-8'>
-                        <div className='text-[#0C7203] text-3xl font-bold'>Welcome Back</div>
+                        <div className='text-[#0C7203] text-2xl sm:text-3xl font-bold'>Welcome Back</div>
                         <div className='text-[black] text-xs font-bold'>Don't have an account? <a className='text-[#0C7203]' href="/signup">Sign Up.</a></div>
 
                         <button className='bg-[#D9D9D9] text-[#0C7203] rounded-[10px] p-3 text-xs  font-bold w-full'>Continue with Google</button>
@@ -60,13 +60,13 @@ export default function signin() {
 
                     {/* or section */}
                     <div className=" w-4/5 m-auto flex flex-row items-center justify-center gap-2  ">
-                        <div className='w-[10%] h-[2px] bg-[#0C7203]'></div>
-                        <div className='text-[black] text-xs '>Or continue whith username/email</div>
-                        <div className='w-[10%] h-[2px] bg-[#0C7203]'></div>
+                        <div className='w-[30%] sm:w-[10%] h-[2px] bg-[#0C7203]'></div>
+                        <div className='text-[black] text-xs text-center '>Or continue whith username/email</div>
+                        <div className='w-[30%] sm:w-[10%] h-[2px] bg-[#0C7203]'></div>
                     </div>
 
                     {/* form */}
-                    <div className=''>
+                    <div className='pb-4'>
                         <form action="#" className='flex flex-col gap-4  w-4/5 m-auto mt-8'>
                             <input className='bg-[#D9D9D9] rounded-[10px] p-3 text-xs tracking-wide font-bold' type="text" name='name' placeholder='Username or email address
 ' />
