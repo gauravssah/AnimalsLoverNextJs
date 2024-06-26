@@ -77,7 +77,7 @@ export default function signin() {
                                 <p><a className='text-[#0C7203] text-sm hover:underline ' href="#"> Forgot Password </a></p>
                             </div>
 
-                            <button className='bg-[#0C7203] text-white rounded-[10px] p-3 text-xs tracking-wide font-bold' type='submit'>Create Account</button>
+                            <button className='bg-[#0C7203] text-white rounded-[10px] p-3 text-xs tracking-wide font-bold' type='submit'>Sign in</button>
                         </form>
                     </div>
 
